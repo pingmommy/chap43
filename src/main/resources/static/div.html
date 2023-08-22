@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>semantic.html</title>
+
+<!--CSS -->
+<style>
+	header,footer{
+		border: 6px solid lightpink;
+		height: 200px;
+		text-align: center;
+		line-height: 200px;
+	}
+	
+	article {
+		border: 4px dashed pink;
+		height: 300px;
+		text-align: center;
+		line-height: 300px;
+	}
+</style>
+
+</head>
+<body>
+	
+<!-- semantic
+문서의 구조를 정의하는 역할. 코드의 가독성을 높여줌. 
+어떤 역할도 수행하지 않고 디자인에도 영향을 미치지 않음.  
+검색엔진으로 검색하거나 아웃라인으로 구조파악하는데에 매우 용이함.-->	
+
+<div id="header">Header</div>
+<hr>
+<div id="section">
+	<div id="article">Article1 </div><hr>
+	<div id="article">Article2 </article>
+</div>
+<hr>
+<div id="section">
+	<div id="article">Article1</div><hr>
+	<div id="article">Article2</div>
+</divid="section">
+<hr>
+<div>Footer </div>
+</body>
+</html>
